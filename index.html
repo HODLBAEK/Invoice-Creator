@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <header id="body-header">
+    <h1>Invoice Creator</h1>
+    <h3>Thanks for choosing SuperClean!!!</h3>
+  </header>
+  <main>
+    <section class="button">
+      <button id="wash">Wash Car: $10</button>
+      <button id="lawn">Mow Lawn: $20</button>
+      <button id="weed">Clean house: $30</button>
+    </section>
+    <section class="task">
+      <header class="task-headings">
+        <p>TASK</p>
+        <p>TOTAL</p>
+      </header>
+      <div id="service-list">
+        <!-- services will be added here -->
+      </div>
+    </section>
+    <div id="line"></div>
+
+    <section>
+      <header id="notes">
+        <p>NOTES</p>
+        <p>TOTAL AMOUNT</p>
+      </header>
+      <article id="total">
+        <div></div>
+        <div class="sum">$<span class="sum" id="total-dollar">0</span></div>
+      </article>
+    </section>
+
+    <section id="send-btn">
+      <img src="mail-icon.png" alt="mail-icon" id="mail-icon">
+      <p>SEND INVOICE</p>
+    </section>
+
+
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
